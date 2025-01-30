@@ -1,0 +1,6 @@
+PropertyType,VacancyRate - Average,VacancyRate - Class A,VacancyRate - Class B,VacancyRate - Class C
+Office,0.157,0.208,0.139,0.124
+Industrial,0.074,0.078,0.07,0.039
+Retail,0.058666667,0.041,0.047,0.088
+Multifamily,0.088666667,0.113,0.08,0.073
+Hospitality,0.367333333,0.448,0.328,0.326
