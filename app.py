@@ -336,6 +336,9 @@ app.index_string = '''
         </style>
     </head>
     <body>
+        <div style='position: absolute; top: 19px; right: 10px;'>
+            <a href='https://spencers-newsletter-014909.beehiiv.com/subscribe' style='background-color: #007BFF; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;'>Newsletter Signup</a>
+        </div>
         {%app_entry%}
         <footer>
             {%config%}
@@ -473,7 +476,8 @@ app.layout = dbc.Container(
                             )
                         ], className="table-card-body")
                     ],
-                    className="table-card h-100"
+                    className="table-card h-100",
+                    style={"margin-bottom": "0px"}  # Removed margin-bottom
                 )
             ], width={"size": 4, "offset": 0}),
 
